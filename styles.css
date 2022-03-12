@@ -23,16 +23,16 @@ header {
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-evenly;
     width: 100%;
     min-width: 320px;
-    height: 850px;
+    height: 650px;
     text-align: center;
     background: linear-gradient(0deg, #201e1c 1.69%, #FFCE2B 50%);
 }
 
 header img {
-    width: 350px;
+    width: 250px;
     align-self: center;
 }
 
@@ -41,7 +41,7 @@ header img {
     min-width: 288px;
     max-width: 900px;
     height: 218px;
-    margin-top: 15px;
+    margin-bottom: 100px;
     text-align: center;
     align-self: center;
 }
@@ -61,7 +61,7 @@ header img {
 .header--title-container .header--button {
     position: absolute;
     left: calc(50% - 120px);
-    top: 800px;
+    top: 600px;
     display: block;
     margin-top: 5px;
     padding: 15px;
@@ -87,11 +87,11 @@ header img {
     width: 100%;
     padding: 0 20px 0 20px;
     min-width: 320px;
-    height: 45vh;
+    height: 350px;
     background-color: var(--warm-black);
 }
 .main-info-container h2 {
-    padding-top: 60px;
+    padding-top: 100px;
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
@@ -145,9 +145,8 @@ header img {
 .services-container--card {
     position: relative;
     scroll-snap-align: center;
-    width: 70%;
     min-width: 300px;
-    max-width: 380px;
+    max-width: initial;
     height: 400px;
     margin: 20px 10px 0;
     padding: 0 15px;
@@ -233,7 +232,7 @@ header img {
     position: relative;
     width: 100%;
     min-width: 300px;
-    height: auto;
+    height: 730px;
     padding: 20px 10px;
     background-color: var(--warm-black);
 }
@@ -249,8 +248,7 @@ header img {
     width: 90%;
     min-width: 288px;
     height: auto;
-    margin: 0 auto;
-    margin-top: 50px;
+    margin: 40px auto;
     text-align: center;
 }
 .process-detail--title h2 {
@@ -406,7 +404,7 @@ header img {
     scroll-snap-align: center;
     min-width: 235px;
     max-width: 500px;
-    height: 300px;
+    height: 260px;
     margin: 0 50px;
     font-family: "Inter", sans-serif;
 }
@@ -476,7 +474,7 @@ header img {
 }
 .main-contact-container h2 {
     margin-bottom: 30px;
-    font-size: 2.8rem;
+    font-size: 3rem;
     font-weight: bold;
     line-height: 2.8rem;
     color: var(--just-white);
@@ -488,17 +486,17 @@ header img {
     align-items: center;
 }
 .main-contact-container .left ul {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 500;
     line-height: 1.8rem;
     list-style: none;
 }
 .left li {
-    margin: 10px 0;
+    margin: 20px 0;
 }
 .left a {
     text-decoration: none;
-    color: var(--just-white);
+    color: var(--black);
 }
 .right img {
     width: 100px;

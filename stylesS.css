@@ -1,0 +1,11 @@
+header {
+    height: 850px;
+}
+
+header img {
+    width: 340px;
+}
+
+.header--title-container .header--button {
+top: 780px;    
+}
