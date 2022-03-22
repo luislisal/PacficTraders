@@ -1,0 +1,41 @@
+header {
+    height: 750px;
+}
+
+header img {
+    width: 300px;
+}
+
+
+.header--title-container .header--button {
+top: 780px;    
+}
+
+.header--title-container h1 {
+    font-size: 4.2rem;
+    font-weight: bold;
+    line-height: 7.6rem;
+    color: var(--just-white);
+}
+
+.header--title-container h1 span{
+    font-size: 7.6rem;
+}
+.header--title-container .header--button {
+top: 650px;    
+}
+.process-cards--container{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+}
+.process--card {
+    margin: 45px auto;
+}
+.main-process-detail {
+    height: auto;
+}
+.services-container--slider {
+    justify-content: center;
+
+}

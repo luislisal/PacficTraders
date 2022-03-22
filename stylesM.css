@@ -1,0 +1,27 @@
+header {
+    height: 1024px;
+}
+
+header img {
+    width: 340px;
+}
+
+.header--title-container h1 {
+    font-size: 5.6rem;
+    font-weight: bold;
+    line-height: 9.6rem;
+    color: var(--just-white);
+}
+
+.header--title-container h1 span{
+    font-size: 9.6rem;
+}
+.header--title-container .header--button {
+top: 950px;    
+}
+.main-info-container {
+    height: 250px;
+}
+.main-info-container h2 {
+    padding-top: 50px;
+}

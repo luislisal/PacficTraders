@@ -140,7 +140,6 @@ header img {
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
-
 }
 .services-container--card {
     position: relative;
@@ -469,7 +468,6 @@ header img {
     margin: 50px auto;
     width: 100%;
     min-width: 288px;
-    max-width: 900px;
     text-align: center;
 }
 .main-contact-container h2 {
@@ -499,5 +497,5 @@ header img {
     color: var(--black);
 }
 .right img {
-    width: 100px;
+    width: 160px;
 }
